@@ -1,7 +1,7 @@
 # 这是一个基于Flower联邦学习框架，BERT预训练模型与Pytorch的联邦学习中文文本分类项目FL-BERT-Text-Classification
-Github页面：https://github.com/Lycoris-Zhang/FL-BERT-Text-Classification.
+Github页面：https://github.com/Lycoris-Zhang/FL-BERT-Text-Classification。
 该项目是基于samadeep的联邦学习垃圾邮件分类项目完成的。详情可见：https://github.com/samadeep/federated_learning_BERT
-如果您需要进行英文文本分类，将BERT模型替换为英文版即可：）
+如果您需要进行英文文本分类，将BERT模型替换为英文版即可：）。
 ## 项目结构
 |-- dataset_client
     |-- dataset_unicode_check.py
@@ -58,9 +58,9 @@ Github页面：https://github.com/Lycoris-Zhang/FL-BERT-Text-Classification.
 完成上述准备后，您就可以进行本地模拟的联邦学习了：），如果您想进行实际的远程联邦学习，您需要修改一下代码。
 
 # This is a federated learning Chinese text classification project called 'FL-BERT-Text-Classification,' which is based on the Flower federated learning framework, BERT pre-trained models, and PyTorch.
-GitHub page: https://github.com/Lycoris-Zhang/FL-BERT-Text-Classification
+GitHub page: https://github.com/Lycoris-Zhang/FL-BERT-Text-Classification.
 This project is based on samadeep's federated learning spam classification project. For more details, please visit: https://github.com/samadeep/federated_learning_BERT.
-If you need to perform English text classification, just replace the BERT model with the English version :)
+If you need to perform English text classification, just replace the BERT model with the English version :).
 
 ## Project Structure
 |-- dataset_client
