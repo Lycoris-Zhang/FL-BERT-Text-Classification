@@ -1,5 +1,5 @@
 # 这是一个基于Flower联邦学习框架，BERT预训练模型与Pytorch的联邦学习中文文本分类项目FL-BERT-Text-Classification
-Github页面：https://github.com/Lycoris-Zhang/FL-BERT-Text-Classification
+Github页面：https://github.com/Lycoris-Zhang/FL-BERT-Text-Classification.
 该项目是基于samadeep的联邦学习垃圾邮件分类项目完成的。详情可见：https://github.com/samadeep/federated_learning_BERT
 如果您需要进行英文文本分类，将BERT模型替换为英文版即可：）
 ## 项目结构
