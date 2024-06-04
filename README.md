@@ -3,39 +3,39 @@ Github页面：https://github.com/Lycoris-Zhang/FL-BERT-Text-Classification
 该项目是基于samadeep的联邦学习垃圾邮件分类项目完成的。详情可见：https://github.com/samadeep/federated_learning_BERT  
 如果您需要进行英文文本分类，将BERT模型替换为英文版即可：）  
 ## 项目结构
-|-- dataset_client
-    |-- dataset_unicode_check.py
-    |-- empty_texts_check.py
-|-- dataset_THUCnews
-    |-- thucnews_initial_titles.csv
-    |-- thucnews_test_data.csv
+|-- dataset_client  
+    |-- dataset_unicode_check.py  
+    |-- empty_texts_check.py  
+|-- dataset_THUCnews  
+    |-- thucnews_initial_titles.csv  
+    |-- thucnews_test_data.csv  
 |-- data_processing
-    |-- dataset_extraction.py
-    |-- data_splitting_IID.py
-    |-- data_splitting_nonEQ.py
-    |-- data_splitting_nonIID.py
-    |-- data_splitting_nonPP.py
-|-- pretrained_BERT
-    |-- config.json
-    |-- pytorch_model.bin
-    |-- README.md
-    |-- tokenizer.json
-    |-- tokenizer_config.json
-    |-- vocab.txt
-|-- results
-    |-- model
-    |-- training_records
-    |-- weights
-|-- data_processing.py
-|-- main.py
-|-- model_config.py
-|-- server_FedAvg.py
-|-- server_FedOpt.py
-|-- server_FedProx.py
-|-- README.md
-|-- BERT-FC-demo.py
-|-- client.py
-|-- config.json
+    |-- dataset_extraction.py  
+    |-- data_splitting_IID.py  
+    |-- data_splitting_nonEQ.py  
+    |-- data_splitting_nonIID.py  
+    |-- data_splitting_nonPP.py  
+|-- pretrained_BERT  
+    |-- config.json  
+    |-- pytorch_model.bin  
+    |-- README.md  
+    |-- tokenizer.json  
+    |-- tokenizer_config.json  
+    |-- vocab.txt  
+|-- results  
+    |-- model  
+    |-- training_records  
+    |-- weights  
+|-- data_processing.py  
+|-- main.py  
+|-- model_config.py  
+|-- server_FedAvg.py  
+|-- server_FedOpt.py  
+|-- server_FedProx.py  
+|-- README.md  
+|-- BERT-FC-demo.py  
+|-- client.py  
+|-- config.json  
 
 ## 您将在列表中看到如下文件夹：
 - **dataset_THUCnews** 这是经过第一次预处理的文本数据集的存放位置，我使用的数据集为THUCnews，数据集下载请见：http://thuctc.thunlp.org/。
@@ -53,49 +53,49 @@ Github页面：https://github.com/Lycoris-Zhang/FL-BERT-Text-Classification
 - **main** 项目启动点
 
 ## 如何使用它？
-所有的模型训练参数与联邦学习模式设定参数都存放在**config.json**中，您可以在该文件中调整所有参数，包括使用的数据集位置，模型训练学习率，模拟的客户端数量等。
-如果您需要使用其他Flower支持的聚合算法进行联邦学习，您需要修改server.py中的代码。
-完成上述准备后，您就可以进行本地模拟的联邦学习了：），如果您想进行实际的远程联邦学习，您需要修改一下代码。
+所有的模型训练参数与联邦学习模式设定参数都存放在**config.json**中，您可以在该文件中调整所有参数，包括使用的数据集位置，模型训练学习率，模拟的客户端数量等。  
+如果您需要使用其他Flower支持的聚合算法进行联邦学习，您需要修改server.py中的代码。  
+完成上述准备后，您就可以进行本地模拟的联邦学习了：），如果您想进行实际的远程联邦学习，您需要修改一下代码。  
 
 # This is a federated learning Chinese text classification project called 'FL-BERT-Text-Classification,' which is based on the Flower federated learning framework, BERT pre-trained models, and PyTorch.
-GitHub page: https://github.com/Lycoris-Zhang/FL-BERT-Text-Classification.  
+GitHub page: https://github.com/Lycoris-Zhang/FL-BERT-Text-Classification.   
 This project is based on samadeep's federated learning spam classification project. For more details, please visit: https://github.com/samadeep/federated_learning_BERT.  
 If you need to perform English text classification, just replace the BERT model with the English version :).  
 
 ## Project Structure
-|-- dataset_client
-    |-- dataset_unicode_check.py
-    |-- empty_texts_check.py
-|-- dataset_THUCnews
-    |-- thucnews_initial_titles.csv
-    |-- thucnews_test_data.csv
-|-- data_processing
-    |-- dataset_extraction.py
-    |-- data_splitting_IID.py
-    |-- data_splitting_nonEQ.py
-    |-- data_splitting_nonIID.py
-    |-- data_splitting_nonPP.py
-|-- pretrained_BERT
-    |-- config.json
-    |-- pytorch_model.bin
-    |-- README.md
-    |-- tokenizer.json
-    |-- tokenizer_config.json
-    |-- vocab.txt
-|-- results
-    |-- model
-    |-- training_records
-    |-- weights
-|-- data_processing.py
-|-- main.py
-|-- model_config.py
-|-- server_FedAvg.py
-|-- server_FedOpt.py
-|-- server_FedProx.py
-|-- README.md
-|-- BERT-FC-demo.py
-|-- client.py
-|-- config.json
+|-- dataset_client  
+    |-- dataset_unicode_check.py  
+    |-- empty_texts_check.py  
+|-- dataset_THUCnews  
+    |-- thucnews_initial_titles.csv  
+    |-- thucnews_test_data.csv  
+|-- data_processing  
+    |-- dataset_extraction.py  
+    |-- data_splitting_IID.py  
+    |-- data_splitting_nonEQ.py  
+    |-- data_splitting_nonIID.py  
+    |-- data_splitting_nonPP.py  
+|-- pretrained_BERT  
+    |-- config.json  
+    |-- pytorch_model.bin  
+    |-- README.md  
+    |-- tokenizer.json  
+    |-- tokenizer_config.json  
+    |-- vocab.txt  
+|-- results  
+    |-- model  
+    |-- training_records  
+    |-- weights  
+|-- data_processing.py  
+|-- main.py  
+|-- model_config.py  
+|-- server_FedAvg.py  
+|-- server_FedOpt.py  
+|-- server_FedProx.py  
+|-- README.md  
+|-- BERT-FC-demo.py  
+|-- client.py  
+|-- config.json  
 
 ## You will see the following folders in the list:
 - **dataset_THUCnews** This is the storage location of the preprocessed text dataset. I am using the THUCnews dataset. For dataset download, please visit: http://thuctc.thunlp.org/.
@@ -113,6 +113,6 @@ If you need to perform English text classification, just replace the BERT model 
 - **main**: Project entry point.
  
 ## How to use it?
-All model training parameters and federated learning configuration settings are stored in **config.json**. You can adjust all parameters in this file, including the dataset location, model training learning rate, number of simulated clients, and more.
-If you want to use other aggregation algorithms supported by Flower for federated learning, you need to modify the code in **server_FedAvg/FedProx/FedOpt.py**.
-After completing the above preparations, you can proceed with local simulated federated learning:). If you wish to conduct actual remote federated learning, you will need to make some additional modifications to the code.
+All model training parameters and federated learning configuration settings are stored in **config.json**. You can adjust all parameters in this file, including the dataset location, model training learning rate, number of simulated clients, and more.  
+If you want to use other aggregation algorithms supported by Flower for federated learning, you need to modify the code in **server_FedAvg/FedProx/FedOpt.py**.  
+After completing the above preparations, you can proceed with local simulated federated learning:). If you wish to conduct actual remote federated learning, you will need to make some additional modifications to the code.  
