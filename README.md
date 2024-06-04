@@ -2,40 +2,6 @@
 Github页面：https://github.com/Lycoris-Zhang/FL-BERT-Text-Classification  
 该项目是基于samadeep的联邦学习垃圾邮件分类项目完成的。详情可见：https://github.com/samadeep/federated_learning_BERT  
 如果您需要进行英文文本分类，将BERT模型替换为英文版即可：）  
-## 项目结构
-|-- dataset_client  
-      |-- dataset_unicode_check.py  
-      |-- empty_texts_check.py  
-|-- dataset_THUCnews  
-      |-- thucnews_initial_titles.csv  
-      |-- thucnews_test_data.csv  
-|-- data_processing
-      |-- dataset_extraction.py  
-      |-- data_splitting_IID.py  
-      |-- data_splitting_nonEQ.py  
-      |-- data_splitting_nonIID.py  
-      |-- data_splitting_nonPP.py  
-|-- pretrained_BERT  
-      |-- config.json  
-      |-- pytorch_model.bin  
-      |-- README.md  
-      |-- tokenizer.json  
-      |-- tokenizer_config.json  
-      |-- vocab.txt  
-|-- results  
-      |-- model  
-      |-- training_records  
-      |-- weights  
-|-- data_processing.py  
-|-- main.py  
-|-- model_config.py  
-|-- server_FedAvg.py  
-|-- server_FedOpt.py  
-|-- server_FedProx.py  
-|-- README.md  
-|-- BERT-FC-demo.py  
-|-- client.py  
-|-- config.json  
 
 ## 您将在列表中看到如下文件夹：
 - **dataset_THUCnews** 这是经过第一次预处理的文本数据集的存放位置，我使用的数据集为THUCnews，数据集下载请见：http://thuctc.thunlp.org/。
@@ -61,41 +27,6 @@ Github页面：https://github.com/Lycoris-Zhang/FL-BERT-Text-Classification
 GitHub page: https://github.com/Lycoris-Zhang/FL-BERT-Text-Classification.   
 This project is based on samadeep's federated learning spam classification project. For more details, please visit: https://github.com/samadeep/federated_learning_BERT.  
 If you need to perform English text classification, just replace the BERT model with the English version :).  
-
-## Project Structure
-|-- dataset_client  
-    |-- dataset_unicode_check.py  
-    |-- empty_texts_check.py  
-|-- dataset_THUCnews  
-    |-- thucnews_initial_titles.csv  
-    |-- thucnews_test_data.csv  
-|-- data_processing  
-    |-- dataset_extraction.py  
-    |-- data_splitting_IID.py  
-    |-- data_splitting_nonEQ.py  
-    |-- data_splitting_nonIID.py  
-    |-- data_splitting_nonPP.py  
-|-- pretrained_BERT  
-    |-- config.json  
-    |-- pytorch_model.bin  
-    |-- README.md  
-    |-- tokenizer.json  
-    |-- tokenizer_config.json  
-    |-- vocab.txt  
-|-- results  
-    |-- model  
-    |-- training_records  
-    |-- weights  
-|-- data_processing.py  
-|-- main.py  
-|-- model_config.py  
-|-- server_FedAvg.py  
-|-- server_FedOpt.py  
-|-- server_FedProx.py  
-|-- README.md  
-|-- BERT-FC-demo.py  
-|-- client.py  
-|-- config.json  
 
 ## You will see the following folders in the list:
 - **dataset_THUCnews** This is the storage location of the preprocessed text dataset. I am using the THUCnews dataset. For dataset download, please visit: http://thuctc.thunlp.org/.
