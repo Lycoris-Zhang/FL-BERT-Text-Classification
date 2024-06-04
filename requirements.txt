@@ -1,0 +1,8 @@
+chardet==4.0.0
+flwr==1.8.0
+matplotlib==3.5.2
+numpy==1.22.4
+pandas==2.2.2
+scikit_learn==1.4.2
+torch==1.11.0+cu113
+transformers==4.41.0

@@ -1,0 +1,30 @@
+{
+    "dataset_path": "dataset_THUCnews/thucnews_initial_titles.csv",
+    "record_save_path": "results/training_records/final_results.csv",
+    "model_save_path": "results/model/pytorch_model.pth",
+    "weight_save_path":"results/weights/",
+    "server_file_path":"server_FedAvg.py",
+
+    "BERT_model_path": "pretrained_BERT",
+    "BERT_tokenizer_path": "pretrained_BERT",
+    "learning_rate": 0.001,
+    "batch_size": 100,
+    "epochs": 10,
+
+    "rounds": 5,
+    "clients": 4,
+    "top_client_count": 10,
+    "clusters_count": 1,
+    "proximal_mu": 0.3,
+    "fraction_fit": 0.5,
+    "fraction_evaluate": 0.5,
+    "min_fit_clients": 4,
+    "min_evaluate_clients": 4,
+    "min_available_clients": 4,
+
+    "client1_dataset": "dataset_client/dataset_nonIID/client1_nonIID.csv",
+    "client2_dataset": "dataset_client/dataset_nonIID/client2_nonIID.csv",
+    "client3_dataset": "dataset_client/dataset_nonIID/client3_nonIID.csv",
+    "client4_dataset": "dataset_client/dataset_nonIID/client4_nonIID.csv"
+}
+
