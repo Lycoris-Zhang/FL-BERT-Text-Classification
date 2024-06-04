@@ -4,28 +4,28 @@ Github页面：https://github.com/Lycoris-Zhang/FL-BERT-Text-Classification
 如果您需要进行英文文本分类，将BERT模型替换为英文版即可：）  
 ## 项目结构
 |-- dataset_client  
-    |-- dataset_unicode_check.py  
-    |-- empty_texts_check.py  
+      |-- dataset_unicode_check.py  
+      |-- empty_texts_check.py  
 |-- dataset_THUCnews  
-    |-- thucnews_initial_titles.csv  
-    |-- thucnews_test_data.csv  
+      |-- thucnews_initial_titles.csv  
+      |-- thucnews_test_data.csv  
 |-- data_processing
-    |-- dataset_extraction.py  
-    |-- data_splitting_IID.py  
-    |-- data_splitting_nonEQ.py  
-    |-- data_splitting_nonIID.py  
-    |-- data_splitting_nonPP.py  
+      |-- dataset_extraction.py  
+      |-- data_splitting_IID.py  
+      |-- data_splitting_nonEQ.py  
+      |-- data_splitting_nonIID.py  
+      |-- data_splitting_nonPP.py  
 |-- pretrained_BERT  
-    |-- config.json  
-    |-- pytorch_model.bin  
-    |-- README.md  
-    |-- tokenizer.json  
-    |-- tokenizer_config.json  
-    |-- vocab.txt  
+      |-- config.json  
+      |-- pytorch_model.bin  
+      |-- README.md  
+      |-- tokenizer.json  
+      |-- tokenizer_config.json  
+      |-- vocab.txt  
 |-- results  
-    |-- model  
-    |-- training_records  
-    |-- weights  
+      |-- model  
+      |-- training_records  
+      |-- weights  
 |-- data_processing.py  
 |-- main.py  
 |-- model_config.py  
